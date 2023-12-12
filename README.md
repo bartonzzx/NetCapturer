@@ -22,43 +22,23 @@ A net packet capturer using Jpcap and Jfreechart
 #### 点击“查询功能”按钮进入查询界面
 #### 在查询界面，输入数据包编号可查看详细数据包的信息和数据
 
-
 ## Function description
-
-* By calling Jpcap, the Jfreechart library implements: *
-
+* By calling Jpcap, the Jfreechart library implements:
 ### Capture of packets transmitted on the selected network card
-
 ### Analyze the IP address corresponding to the packet sending and receiving, the MAC address of the packet sending and receiving, the protocol at the transport layer and the network layer, and the packet length (due to the Jpcap function, the protocol of the packet at the application layer cannot be analyzed)
-
 ### Get the packet transfer data and convert it to hexadecimal
-
 ### Realize real-time visualization of data packet information
-
 ### Realize the visualization of each protocol proportion of packet information
-
 ### Realize the visualization of packet traffic after program startup
-
 ### Provides the function of querying packet data by number
-
 ### Using Java multithreading to realize the parallel execution of packet capture and display
-
 ### After stopping packet capture, click OK to continue packet capture
-
 ## Instructions for use
-
 ### Use steps
-
 #### Select a NIC based on the device name and MAC address displayed in the drop-down list
-
 #### Then click the "OK" button to start grabbing the data packets transmitted on the selected network card
-
 #### Click the "Stop Packet Capture" button to stop packet capture
-
 ### Functional supplement
-
 #### Click the "Clear" button to clear the table used to display the packets
-
 #### Click the "Query Function" button to enter the query interface
-
-3. On the query page, enter the packet number to view detailed packet information and data
+#### On the query page, enter the packet number to view detailed packet information and data
