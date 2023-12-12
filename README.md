@@ -2,7 +2,7 @@
 A net packet capturer using Jpcap and Jfreechart
 
 ## 功能描述
-代理抓包工具(NetCapturer)通过调用Jpcap，Jfreechart库实现了：
+**代理抓包工具(NetCapturer)通过调用Jpcap，Jfreechart库实现了：**
 ### 对传输在选定网卡数据包的抓取
 ### 分析数据包对应的发送与接收IP地址，发送与接收MAC地址，在传输层、网络层的协议，数据包长度（受限于Jpcap功能无法分析数据包在应用层的协议）
 ### 获取数据包传输数据并转化为16进制
@@ -12,6 +12,7 @@ A net packet capturer using Jpcap and Jfreechart
 ### 提供按编号查询数据包数据的功能
 ### 利用Java多线程实现抓包与显示并行执行
 ### 支持停止抓包后，点击确定按钮继续抓包
+
 ## 使用说明
 ### 使用步骤
 #### 首先在下拉栏中根据显示的设备名、MAC地址选择网卡
@@ -33,6 +34,7 @@ A net packet capturer using Jpcap and Jfreechart
 ### Provides the function of querying packet data by number
 ### Using Java multithreading to realize the parallel execution of packet capture and display
 ### After stopping packet capture, click OK to continue packet capture
+
 ## Instructions for use
 ### Use steps
 #### Select a NIC based on the device name and MAC address displayed in the drop-down list
